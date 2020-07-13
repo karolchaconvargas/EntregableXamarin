@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SegundoEntregableXamarin.MainPage">
+    <!--#region Pantalla1 Categorias-->
+    <!--  
+    <Grid Margin="1,1,1,1" VerticalOptions="Fill" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Frame BackgroundColor="Beige" Grid.ColumnSpan="2" Margin="0,0,0,20" CornerRadius="20" HasShadow="True"></Frame>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Formulario de  Categorias" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+         <Frame BackgroundColor="Beige" Grid.Row="1" Margin="0,0,0,20" CornerRadius="30" HasShadow="True"></Frame>
+        <BoxView Margin="0,0,0,-10" Grid.Row="1" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="1" Grid.Column="0" Text="Nombre" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="" WidthRequest="100"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="White" TextColor="Black"/>
+
+        <BoxView Margin="0,0,0,-10"  Grid.Row="2" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="2" Grid.Column="0" Text="Estado" HorizontalOptions="Center"  VerticalOptions="Center" TextColor="Black"/>
+        <BoxView BackgroundColor="Beige" Grid.Row="3" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="3" Grid.ColumnSpan="2" Text="" WidthRequest="100"  HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="Beige" TextColor="Black"/>
+        <Label TextColor="Black" Text="Activo"  Grid.Row="3" Grid.Column="0" HorizontalOptions="Center"  VerticalOptions="Center"/>
+        <CheckBox  Grid.Row="3" Grid.Column="0" HorizontalOptions="End"  VerticalOptions="Center" Color="Bisque" />
+        <Label TextColor="Black" Text="Inactivo"  Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"  VerticalOptions="Center"/>
+        <CheckBox  Grid.Row="3" Grid.Column="1" HorizontalOptions="End"  VerticalOptions="Center" Margin="10" Color="Bisque"/>
+    </Grid>
+    -->
+    <!--
+    
+   
+#endregion-->
+
+    <!--#region Pantalla2 Categorias-->
+    <Grid Margin="1,1,1,1" VerticalOptions="Fill" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+          
+        </Grid.ColumnDefinitions>
+        <Frame Margin="1,1,1,1" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" OutlineColor="Beige" BackgroundColor="Azure" CornerRadius="10"
+       HasShadow="True"></Frame>
+        <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="0"  Source="https://www.yorokobu.es/src/uploads/2016/11/vegano.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" HeightRequest="40" WidthRequest="150" />
+        <Label Grid.Row="0" Grid.Column="1" Text="Vegetariano" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="Disponible: Si" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+        <Frame Margin="1,1,1,1"  Grid.Row="2" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" OutlineColor="Beige" BackgroundColor="Azure" CornerRadius="10"
+       HasShadow="True"></Frame>
+        <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"  Source="https://www.belmonteclinicadental.com/wp-content/uploads/2019/06/iStock-812997516.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" HeightRequest="40" WidthRequest="150" />
+        <Label Grid.Row="2" Grid.Column="1" Text="Vegano" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+        <Label Grid.Row="3" Grid.Column="1" Text="Disponible: No" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+
+
+
+
+        <!--#endregion    <Frame Margin="1,1,1,1" Grid.Row="0" Grid.ColumnSpan="2" OutlineColor="Beige" BackgroundColor="Azure" CornerRadius="10"
+       HasShadow="True"></Frame>-->
+
+
+    <!--#region Pantalla2 Restaurantes-->
+    <!--
+        <Grid Margin="1,1,1,1" VerticalOptions="Fill" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Frame BackgroundColor="Beige" Grid.ColumnSpan="2" Margin="0,0,0,20" CornerRadius="20" HasShadow="True"></Frame>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Formulario de  Restaurantes" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+        <Frame BackgroundColor="Beige" Grid.Row="1" Margin="0,0,0,20" CornerRadius="30" HasShadow="True"></Frame>
+        <BoxView Margin="0,0,0,-10" Grid.Row="1" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="1" Grid.Column="0" Text="Nombre" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+        <Label x:Name="Nombre"  Grid.Row="1" Grid.Column="1" Text="" WidthRequest="100"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="White" TextColor="Black"/>
+
+        <BoxView Margin="0,0,0,-10"  Grid.Row="2" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="2" Grid.Column="0" Text="Ubicación" HorizontalOptions="Center"  VerticalOptions="Center" TextColor="Black"/>
+        <BoxView BackgroundColor="Beige" Grid.Row="3" Grid.ColumnSpan="2" Color="Beige" />
+        <Label  WidthRequest="250" BackgroundColor="White" TextColor="Black"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"/>
+
+        <BoxView Margin="0,-10,0,-10"  Grid.Row="4" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="4" Grid.Column="0" Text="Teléfono" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+        <Label x:Name="Telefono"  Grid.Row="4" Grid.Column="1" Text="" WidthRequest="100"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="White" TextColor="Black"/>
+
+        <BoxView Margin="0,0,0,-10"  Grid.Row="5" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="5" Grid.Column="0" Text="Correo" HorizontalOptions="Center"  VerticalOptions="Center" TextColor="Black"/>
+        <BoxView BackgroundColor="Beige" Grid.Row="6" Grid.ColumnSpan="2" Color="Beige" />
+        <Label  WidthRequest="250" BackgroundColor="White" TextColor="Black"  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"/>
+
+    
+        <BoxView Margin="0,-0,0,-10"  Grid.Row="6" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="6" Grid.Column="0" Text="Estado" HorizontalOptions="Center"  VerticalOptions="Center" TextColor="Black"/>
+        <BoxView Margin="0,0,0,-10"  BackgroundColor="Beige" Grid.Row="7" Grid.ColumnSpan="2" Color="Beige" />
+        <Label Grid.Row="7" Grid.ColumnSpan="2" Text="" WidthRequest="100"  HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="Beige" TextColor="Black"/>
+        <Label TextColor="Black" Text="Activo"  Grid.Row="7" Grid.Column="0" HorizontalOptions="Center"  VerticalOptions="Center"/>
+        <CheckBox  Grid.Row="7" Grid.Column="0" HorizontalOptions="End"  VerticalOptions="Center" Color="Bisque" />
+        <Label TextColor="Black" Text="Inactivo"  Grid.Row="7" Grid.Column="1" HorizontalOptions="Center"  VerticalOptions="Center"/>
+        <CheckBox  Grid.Row="7" Grid.Column="1" HorizontalOptions="End"  VerticalOptions="Center" Margin="10" Color="Bisque"/>
+   
+                 
+     -->
+  <!--#endregion-->
+
+
+    <!--#region Pantalla1 Restaurantes-->
+        <!-- <Grid Margin="1,1,1,1" VerticalOptions="Fill" >
+            <Grid.RowDefinitions >
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+            <Frame Margin="1,1,1,1" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" OutlineColor="Beige" BackgroundColor="Azure" CornerRadius="10"
+       HasShadow="True"></Frame>
+            <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="0"  Source="https://img2.10bestmedia.com/static/img/placeholder-restaurants.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" HeightRequest="40" WidthRequest="150" />
+            <Label Grid.Row="0" Grid.Column="1" Text="Restaurante Mexicano" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="Ubicacion: Turrialba" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+            <Frame Margin="1,1,1,1"  Grid.Row="2" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" OutlineColor="Beige" BackgroundColor="Azure" CornerRadius="10"
+       HasShadow="True"></Frame>
+            <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"  Source="https://img2.10bestmedia.com/static/img/placeholder-restaurants.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" HeightRequest="40" WidthRequest="150" />
+            <Label Grid.Row="2" Grid.Column="1" Text="Restaurante Guanacasteco" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+            <Label Grid.Row="3" Grid.Column="1" Text="Ubicacion: La Cruz Guanacaste" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+                -->
+            <!--#endregion-->
+    </Grid>
+</ContentPage>
